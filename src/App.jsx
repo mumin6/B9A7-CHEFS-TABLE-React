@@ -1,12 +1,13 @@
 
 import './App.css'
+import Header from './components/header/Header'
 
 function App() {
 
   return (
     <>
-      
-      <h1>Recipe Calories</h1>
+    
+      <Header></Header>
       
     </>
   )
