@@ -12,7 +12,7 @@
             "Salt and pepper to taste"
         ],
         "preparing_time": 20,
-        "calories": "480 calories",
+        "calories": 480,
         "recipe_image": "https://i.ibb.co/n61Ww5t/Spaghetti-Carbonara.jpg"
     },
     {
@@ -27,7 +27,7 @@
             "2 tbsp vegetable oil"
         ],
         "preparing_time": 15 ,
-        "calories": "220 calories",
+        "calories": 220,
         "recipe_image": "https://i.ibb.co/YZqFtS3/Vegetable-Stir-Fry.jpg"
     },
     {
@@ -43,7 +43,7 @@
             "Salt and pepper to taste"
         ],
         "preparing_time": 25,
-        "calories": "580 calories",
+        "calories": 580,
         "recipe_image": "https://i.ibb.co/ykHg687/Chicken-Alfredo-Pasta.jpg"
     },
     {
@@ -59,7 +59,7 @@
             "Salt and pepper to taste"
         ],
         "preparing_time": 10,
-        "calories": "250 calories",
+        "calories": 250,
         "recipe_image": "https://i.ibb.co/VNfdZV1/Caprese-Salad.jpg"
     },
     {
@@ -78,7 +78,7 @@
             "Salt and pepper to taste"
         ],
         "preparing_time": 30 ,
-        "calories": "380 calories",
+        "calories": 380,
         "recipe_image": "https://i.ibb.co/PrjMHgb/Beef-Tacos.jpg"
     },
     {
@@ -96,7 +96,7 @@
             "2 tbsp butter"
         ],
         "preparing_time": 35,
-        "calories": "420 calories",
+        "calories": 420,
         "recipe_image": "https://i.ibb.co/XYyRfBd/Mushroom-Risotto.jpg"
     }
 ]
