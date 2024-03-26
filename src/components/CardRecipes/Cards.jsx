@@ -28,7 +28,7 @@ const Cards = () => {
     setCook(newCook)
     const exists = cooking.find((item) => item.recipe_id == card.recipe_id);
     if (exists) {
-      return toast("You already cooking");
+      return toast("You're already cooking it");
     }
     const newCooking = [...cooking, card];
     setCooking(newCooking);

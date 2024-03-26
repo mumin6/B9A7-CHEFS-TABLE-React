@@ -5,7 +5,7 @@ import { FaFire } from "react-icons/fa";
 const Card = ({ card , handleCard}) => {
 
     const { recipe_image, recipe_name, short_description, ingredients, preparing_time, calories } = card;
-    const name = ingredients.map((ing) => <li className="text-neutral-500">{ing}</li>);
+    const ingName = ingredients.map((ing,index) => <li key={index} className="text-neutral-500">{ing}</li>);
 
     return (
         <div className="m-2 p-2 bg-zinc-200 rounded-2xl">
@@ -13,7 +13,7 @@ const Card = ({ card , handleCard}) => {
             <h1 className=" font-semibold text-xl text-black mt-2">{recipe_name}</h1>
             <p className="text-neutral-500">{short_description}</p>
             <p className="text-lg text-black">Ingredients: {ingredients.length}</p>
-            <ul className="mt-2">{name}</ul>
+            <ul className="mt-2">{ingName}</ul>
             <div className="mt-4 flex  items-center">
                 <p className="mx-2 flex  items-center text-black"> <LuClock3/> <span className="mx-2">{preparing_time}</span>minutes</p>
 
